@@ -36,3 +36,13 @@ class Distance
 		return (round($distance, 1));
 	}
 }
+
+
+/**
+ * Distance Exception
+ *
+ * @author Jeroen Desloovere <jeroen@siesqo.be>
+ */
+class DistanceException extends Exception
+{
+}
