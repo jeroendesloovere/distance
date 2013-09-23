@@ -9,7 +9,7 @@
  */
  
  // require
- require '../distance.php';
+ require '../src/Distance/Distance.php';
  
  // demo variables
  $latitude1 = '';
