@@ -1,11 +1,11 @@
 <?php
+
 /**
  * Distance
  *
  * Get distance between two locations.
  *
  * @author Jeroen Desloovere <jeroen@siesqo.be>
- * @date 20130826
  */
 class Distance
 {
