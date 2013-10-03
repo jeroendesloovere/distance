@@ -3,7 +3,7 @@
 /**
  * Distance
  *
- * Get distance between two locations.
+ * Get distance between two or multiple locations.
  *
  * @author Jeroen Desloovere <jeroen@siesqo.be>
  */
@@ -44,7 +44,7 @@ class Distance
 	 * @param decimal $latitude1
 	 * @param decimal $longitude1
 	 * @param int $decimals[optional] The amount of decimals
-	 * @return array The item which is the closest
+	 * @return array The item which is the closest + 'distance' to it.
 	 */
 	public static function getClosest($latitude1, $longitude1, $items, $decimals = 1)
 	{
