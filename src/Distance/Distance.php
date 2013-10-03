@@ -79,6 +79,4 @@ class Distance
  *
  * @author Jeroen Desloovere <jeroen@siesqo.be>
  */
-class DistanceException extends Exception
-{
-}
+class DistanceException extends Exception {}
