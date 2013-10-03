@@ -3,7 +3,7 @@
 /**
  * Distance
  *
- * Get distance between two or multiple locations.
+ * Calculate distance between two or multiple locations using Mathematic functions.
  *
  * @author Jeroen Desloovere <jeroen@siesqo.be>
  */
