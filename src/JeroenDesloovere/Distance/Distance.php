@@ -1,5 +1,7 @@
 <?php
 
+namespace JeroenDesloovere\Distance;
+
 /**
  * Distance
  *

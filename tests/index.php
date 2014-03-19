@@ -9,7 +9,7 @@
  */
  
 // require
-require '../src/Distance/Distance.php';
+require '../src/JeroenDesloovere/Distance/Distance.php';
 
 // demo variables
 $latitude1 = '50.8538510000';
