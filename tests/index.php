@@ -7,7 +7,7 @@
  * @author Jeroen Desloovere <jeroen@siesqo.be>
  * @date 20130826
  */
- 
+
 // require
 require '../src/JeroenDesloovere/Distance/Distance.php';
 
@@ -19,16 +19,16 @@ $longitude2 = '3.4787650000';
 
 // define multiple items
 $items = array(
-	array(
-		'title' => 'waregem',
-		'latitude' =>'50.8865040000',
-		'longitude' => '3.4320850000'
-	),
-	array(
-		'title' => 'Anzegem',
-		'latitude' =>'50.8325600000',
-		'longitude' => '3.4787650000'
-	)
+    array(
+        'title' => 'waregem',
+        'latitude' =>'50.8865040000',
+        'longitude' => '3.4320850000'
+    ),
+    array(
+        'title' => 'Anzegem',
+        'latitude' =>'50.8325600000',
+        'longitude' => '3.4787650000'
+    )
 );
 
 // get distance between
@@ -42,4 +42,3 @@ $distance = Distance::getClosest($latitude1, $longitude1, $items);
 
 // dump data
 echo 'Distance between is ' . $distance['distance'] . ' km';
- 

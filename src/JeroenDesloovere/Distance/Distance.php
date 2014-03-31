@@ -15,12 +15,12 @@ class Distance
      * Get distance between two coordinates
      *
      * @return float
-     * @param decimal $latitude1
-     * @param decimal $longitude1
-     * @param decimal $latitude2
-     * @param decimal $longitude2
-     * @param int $decimals[optional] The amount of decimals
-     * @param string $unit[optional]
+     * @param  decimal $latitude1
+     * @param  decimal $longitude1
+     * @param  decimal $latitude2
+     * @param  decimal $longitude2
+     * @param  int     $decimals[optional] The amount of decimals
+     * @param  string  $unit[optional]
      */
     public static function between($latitude1, $longitude1, $latitude2, $longitude2, $decimals = 1, $unit = 'km')
     {
@@ -44,10 +44,10 @@ class Distance
     /**
      * Get closest location from all locations
      *
-     * @return array The item which is the closest + 'distance' to it.
-     * @param decimal $latitude1
-     * @param decimal $longitude1
-     * @param int $decimals[optional] The amount of decimals
+     * @return array   The item which is the closest + 'distance' to it.
+     * @param  decimal $latitude1
+     * @param  decimal $longitude1
+     * @param  int     $decimals[optional] The amount of decimals
      */
     public static function getClosest($latitude1, $longitude1, $items, $decimals = 1)
     {
@@ -74,7 +74,6 @@ class Distance
         return $items[$distances[min(array_keys($distances))]];
     }
 }
-
 
 /**
  * Distance Exception
