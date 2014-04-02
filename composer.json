@@ -9,13 +9,14 @@
         {
             "name": "Jeroen Desloovere",
             "email": "jeroen@siesqo.be",
-            "homepage": "http://jeroendesloovere.be"
+            "homepage": "http://jeroendesloovere.be",
+			"role": "Developer"
         }
     ],
     "require": {
         "php": ">=5.3.3"
     },
     "autoload": {
-        "psr-0": { "Distance": "src/JeroenDesloovere/Distance/" }
+        "psr-4": { "JeroenDesloovere\\": "src/JeroenDesloovere" }
     }
 }
