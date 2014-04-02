@@ -7,10 +7,9 @@
  * @author Jeroen Desloovere <jeroen@siesqo.be>
  */
 
-// autoload files using Composer autoload
 require_once __DIR__ . '/../src/JeroenDesloovere/Distance/Distance.php';
 
-use JeroenDesloovere\Distance;
+use JeroenDesloovere\Distance\Distance;
 
 // demo variables
 $latitude1 = '50.8538510000';

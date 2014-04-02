@@ -7,7 +7,7 @@ namespace JeroenDesloovere\Distance;
  *
  * Calculate distance between two or multiple locations using Mathematic functions.
  *
- * @author Jeroen Desloovere <jeroen@siesqo.be>
+ * @author Jeroen Desloovere <info@jeroendesloovere.be>
  */
 class Distance
 {
@@ -74,10 +74,3 @@ class Distance
         return $items[$distances[min(array_keys($distances))]];
     }
 }
-
-/**
- * Distance Exception
- *
- * @author Jeroen Desloovere <jeroen@siesqo.be>
- */
-class DistanceException extends Exception {}
