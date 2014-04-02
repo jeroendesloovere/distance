@@ -8,8 +8,9 @@
  * @date 20130826
  */
 
-// require
-require '../src/JeroenDesloovere/Distance/Distance.php';
+require_once __DIR__ . '/../vendor/autoload.php'; // Autoload files using Composer autoload
+
+use JeroenDesloovere\Distance;
 
 // demo variables
 $latitude1 = '50.8538510000';
