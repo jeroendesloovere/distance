@@ -5,11 +5,10 @@
  * Get distance between two locations.
  *
  * @author Jeroen Desloovere <jeroen@siesqo.be>
- * @date 20130826
  */
 
 // autoload files using Composer autoload
-require_once __DIR__ . '/../vendor/autoload.php';
+require_once __DIR__ . '/../src/JeroenDesloovere/Distance/Distance.php';
 
 use JeroenDesloovere\Distance;
 
