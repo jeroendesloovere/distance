@@ -74,3 +74,11 @@ class Distance
         return $items[$distances[min(array_keys($distances))]];
     }
 }
+
+
+/**
+ * Distance Exception
+ *
+ * @author Jeroen Desloovere <info@jeroendesloovere.be>
+ */
+class DistanceException extends \Exception {}
