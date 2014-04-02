@@ -4,10 +4,10 @@
  *
  * Get distance between two locations.
  *
- * @author Jeroen Desloovere <jeroen@siesqo.be>
+ * @author Jeroen Desloovere <info@jeroendesloovere.be>
  */
 
-require_once __DIR__ . '/../src/JeroenDesloovere/Distance/Distance.php';
+require_once __DIR__ . '/../src/Distance.php';
 
 use JeroenDesloovere\Distance\Distance;
 
