@@ -8,7 +8,8 @@
  * @date 20130826
  */
 
-require_once __DIR__ . '/../vendor/autoload.php'; // Autoload files using Composer autoload
+// autoload files using Composer autoload
+require_once __DIR__ . '/../vendor/autoload.php';
 
 use JeroenDesloovere\Distance;
 
