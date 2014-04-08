@@ -1,9 +1,9 @@
 {
-    "name": "deslooverej/distance",
+    "name": "jeroendesloovere/distance",
     "type": "library",
     "description": "Get distance between two locations using PHP.",
     "keywords": ["distance", "location", "coordinates", "php"],
-    "homepage": "https://github.com/deslooverej/distance",
+    "homepage": "https://github.com/jeroendesloovere/distance",
     "license": "MIT",
     "authors": [
         {
