@@ -75,7 +75,6 @@ class Distance
     }
 }
 
-
 /**
  * Distance Exception
  *
