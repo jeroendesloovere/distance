@@ -1,13 +1,13 @@
 # Distance class
 
-Get distance between two locations using PHP.
+Get distance between two locations using PHP. The distance is getting calculated based on latitude and logitude variables and without using any other external class.
 
 ## Installing
 
 ```bash
 {
     "require": {
-        "jeroendesloovere/distance: "1.0.*"
+        "jeroendesloovere/distance": "1.0.*"
     }
 }
 ```
