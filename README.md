@@ -4,6 +4,10 @@ Get distance between two locations using PHP. The distance is getting calculated
 
 ## Installing
 
+### Using Composer
+
+When using [Composer](https://getcomposer.org) you can always load in the latest version.
+
 ```bash
 {
     "require": {
@@ -11,6 +15,7 @@ Get distance between two locations using PHP. The distance is getting calculated
     }
 }
 ```
+> Check [in Packagist](https://packagist.org/packages/jeroendesloovere/distance).
 
 ## Documentation
 
