@@ -49,8 +49,9 @@ class Distance
      * @param  decimal $longitude1
      * @param  array   $items = array(array('latitude' => 'x', 'longitude' => 'x'), array(xxx))
      * @param  int     $decimals[optional] The amount of decimals
+     * @param  string  $unit[optional]
      */
-    public static function getClosest($latitude1, $longitude1, $items, $decimals = 1)
+    public static function getClosest($latitude1, $longitude1, $items, $decimals = 1, $unit = 'km')
     {
         // init result
         $distances = array();
@@ -62,7 +63,7 @@ class Distance
             $longitude2 = $item['longitude'];
 
             // define distance
-            $distance = self::between($latitude1, $longitude1, $latitude2, $longitude2, 10);
+            $distance = self::between($latitude1, $longitude1, $latitude2, $longitude2, 10, $unit);
 
             // add distance
             $distances[$distance] = $key;
