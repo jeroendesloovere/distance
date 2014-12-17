@@ -47,6 +47,7 @@ class Distance
      * @return array   The item which is the closest + 'distance' to it.
      * @param  decimal $latitude1
      * @param  decimal $longitude1
+     * @param  array   $items = array(array('latitude' => 'x', 'longitude' => 'x'), array(xxx))
      * @param  int     $decimals[optional] The amount of decimals
      */
     public static function getClosest($latitude1, $longitude1, $items, $decimals = 1)
