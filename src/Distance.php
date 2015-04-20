@@ -22,11 +22,19 @@ class Distance
      * @param  int     $decimals[optional] The amount of decimals
      * @param  string  $unit[optional]
      */
-    public static function between($latitude1, $longitude1, $latitude2, $longitude2, $decimals = 1, $unit = 'km')
-    {
+    public static function between(
+        $latitude1,
+        $longitude1,
+        $latitude2,
+        $longitude2,
+        $decimals = 1,
+        $unit = 'km'
+    ) {
         // define calculation variables
         $theta = $longitude1 - $longitude2;
-        $distance = (sin(deg2rad($latitude1)) * sin(deg2rad($latitude2))) + (cos(deg2rad($latitude1)) * cos(deg2rad($latitude2)) * cos(deg2rad($theta)));
+        $distance = (sin(deg2rad($latitude1)) * sin(deg2rad($latitude2)))
+            + (cos(deg2rad($latitude1)) * cos(deg2rad($latitude2)) * cos(deg2rad($theta)))
+        ;
         $distance = acos($distance);
         $distance = rad2deg($distance);
         $distance = $distance * 60 * 1.1515;
@@ -51,8 +59,13 @@ class Distance
      * @param  int     $decimals[optional] The amount of decimals
      * @param  string  $unit[optional]
      */
-    public static function getClosest($latitude1, $longitude1, $items, $decimals = 1, $unit = 'km')
-    {
+    public static function getClosest(
+        $latitude1,
+        $longitude1,
+        $items,
+        $decimals = 1,
+        $unit = 'km'
+    ) {
         // init result
         $distances = array();
 
@@ -63,7 +76,14 @@ class Distance
             $longitude2 = $item['longitude'];
 
             // define distance
-            $distance = self::between($latitude1, $longitude1, $latitude2, $longitude2, 10, $unit);
+            $distance = self::between(
+                $latitude1,
+                $longitude1,
+                $latitude2,
+                $longitude2,
+                10,
+                $unit
+            );
 
             // add distance
             $distances[$distance] = $key;
