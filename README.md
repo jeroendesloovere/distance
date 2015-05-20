@@ -54,7 +54,12 @@ $items = array(
 **Get distance between two locations**
 
 ```php
-$distance = Distance::between($latitude1, $longitude1, $latitude2, $longitude2);
+$distance = Distance::between(
+    $latitude1,
+    $longitude1,
+    $latitude2,
+    $longitude2
+);
 
 // dump data
 echo 'Distance between the two locations = ' . $distance . ' km';
@@ -62,7 +67,11 @@ echo 'Distance between the two locations = ' . $distance . ' km';
 
 **Get closest distance from location 1 to one of the two locations (2 and 3)**
 ```php
-$distance = Distance::getClosest($latitude1, $longitude1, $items);
+$distance = Distance::getClosest(
+    $latitude1,
+    $longitude1,
+    $items
+);
 
 // dump data
 echo 'The closest location to location 1 is ' . $distance['title'] . ' and the distance between them is ' . $distance['distance'] . ' km';
