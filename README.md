@@ -1,4 +1,7 @@
 # Distance class
+[![Latest Stable Version](http://img.shields.io/packagist/v/jeroendesloovere/distance.svg)](https://packagist.org/packages/jeroendesloovere/distance)
+[![License](http://img.shields.io/badge/license-MIT-lightgrey.svg)](https://github.com/jeroendesloovere/distance/blob/master/LICENSE)
+[![Build Status](http://img.shields.io/travis/jeroendesloovere/distance.svg)](https://travis-ci.org/jeroendesloovere/distance)
 
 Get distance between two locations using PHP. The distance is getting calculated based on latitude and logitude variables and without using any other external class.
 
