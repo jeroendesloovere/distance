@@ -34,24 +34,6 @@ $longitude1 = '3.3550450000';
 // second location
 $latitude2 = '50.8325600000';
 $longitude2 = '3.4787650000';
-
-// third location
-$latitude3 = '50.8865040000';
-$longitude3 = '3.4320850000';
-
-// define multiple items
-$items = array(
-    array(
-        'title' => 'location 2',
-        'latitude' => $latitude2,
-        'longitude' => $longitude2
-    ),
-    array(
-        'title' => 'location 3',
-        'latitude' => $latitude3,
-        'longitude' => $longitude3
-    )
-);
 ```
 
 **Get distance between two locations**
@@ -70,6 +52,24 @@ echo 'Distance between the two locations = ' . $distance . ' km';
 
 **Get closest distance from location 1 to one of the two locations (2 and 3)**
 ```php
+// third location
+$latitude3 = '50.8865040000';
+$longitude3 = '3.4320850000';
+
+// define multiple items
+$items = array(
+    array(
+        'title' => 'location 2',
+        'latitude' => $latitude2,
+        'longitude' => $longitude2
+    ),
+    array(
+        'title' => 'location 3',
+        'latitude' => $latitude3,
+        'longitude' => $longitude3
+    )
+);
+
 $distance = Distance::getClosest(
     $latitude1,
     $longitude1,
