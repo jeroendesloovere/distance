@@ -15,10 +15,10 @@ class Distance
      * Get distance between two coordinates
      *
      * @return float
-     * @param  decimal $latitude1
-     * @param  decimal $longitude1
-     * @param  decimal $latitude2
-     * @param  decimal $longitude2
+     * @param  float   $latitude1
+     * @param  float   $longitude1
+     * @param  float   $latitude2
+     * @param  float   $longitude2
      * @param  int     $decimals[optional] The amount of decimals
      * @param  string  $unit[optional]
      */
@@ -53,8 +53,8 @@ class Distance
      * Get closest location from all locations
      *
      * @return array   The item which is the closest + 'distance' to it.
-     * @param  decimal $latitude1
-     * @param  decimal $longitude1
+     * @param  float   $latitude1
+     * @param  float   $longitude1
      * @param  array   $items = array(array('latitude' => 'x', 'longitude' => 'x'), array(xxx))
      * @param  int     $decimals[optional] The amount of decimals
      * @param  string  $unit[optional]
